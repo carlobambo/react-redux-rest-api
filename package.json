@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "jest": "^27.0.6",
     "lerna": "^4.0.0"
   },
   "name": "react-redux-rest-hooks"
