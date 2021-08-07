@@ -17,7 +17,7 @@ const CRUD_OPERATIONS = [
   DELETE,
 ];
 
-const join = (pref, suff) => `${pref}${SEPARATOR}${suff}`;
+const join = (pref:string, suff:string) => `${pref}${SEPARATOR}${suff}`;
 
 export interface AsyncConsts {
   START: string,
